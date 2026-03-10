@@ -1,0 +1,12 @@
+/home/lxki/CODE/CSConnectUtils/bin/Debug/net8.0/CSConnectUtils.deps.json
+/home/lxki/CODE/CSConnectUtils/bin/Debug/net8.0/CSConnectUtils.dll
+/home/lxki/CODE/CSConnectUtils/bin/Debug/net8.0/CSConnectUtils.pdb
+/home/lxki/CODE/CSConnectUtils/obj/Debug/net8.0/CSConnectUtils.csproj.AssemblyReference.cache
+/home/lxki/CODE/CSConnectUtils/obj/Debug/net8.0/CSConnectUtils.GeneratedMSBuildEditorConfig.editorconfig
+/home/lxki/CODE/CSConnectUtils/obj/Debug/net8.0/CSConnectUtils.AssemblyInfoInputs.cache
+/home/lxki/CODE/CSConnectUtils/obj/Debug/net8.0/CSConnectUtils.AssemblyInfo.cs
+/home/lxki/CODE/CSConnectUtils/obj/Debug/net8.0/CSConnectUtils.csproj.CoreCompileInputs.cache
+/home/lxki/CODE/CSConnectUtils/obj/Debug/net8.0/CSConnectUtils.dll
+/home/lxki/CODE/CSConnectUtils/obj/Debug/net8.0/refint/CSConnectUtils.dll
+/home/lxki/CODE/CSConnectUtils/obj/Debug/net8.0/CSConnectUtils.pdb
+/home/lxki/CODE/CSConnectUtils/obj/Debug/net8.0/ref/CSConnectUtils.dll

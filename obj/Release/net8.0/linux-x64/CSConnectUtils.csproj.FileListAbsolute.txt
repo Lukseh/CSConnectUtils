@@ -1,0 +1,12 @@
+/home/lxki/CODE/CSConnectUtils/bin/Release/net8.0/linux-x64/CSConnectUtils.deps.json
+/home/lxki/CODE/CSConnectUtils/bin/Release/net8.0/linux-x64/CSConnectUtils.dll
+/home/lxki/CODE/CSConnectUtils/bin/Release/net8.0/linux-x64/CSConnectUtils.pdb
+/home/lxki/CODE/CSConnectUtils/obj/Release/net8.0/linux-x64/CSConnectUtils.csproj.AssemblyReference.cache
+/home/lxki/CODE/CSConnectUtils/obj/Release/net8.0/linux-x64/CSConnectUtils.GeneratedMSBuildEditorConfig.editorconfig
+/home/lxki/CODE/CSConnectUtils/obj/Release/net8.0/linux-x64/CSConnectUtils.AssemblyInfoInputs.cache
+/home/lxki/CODE/CSConnectUtils/obj/Release/net8.0/linux-x64/CSConnectUtils.AssemblyInfo.cs
+/home/lxki/CODE/CSConnectUtils/obj/Release/net8.0/linux-x64/CSConnectUtils.csproj.CoreCompileInputs.cache
+/home/lxki/CODE/CSConnectUtils/obj/Release/net8.0/linux-x64/CSConnectUtils.dll
+/home/lxki/CODE/CSConnectUtils/obj/Release/net8.0/linux-x64/refint/CSConnectUtils.dll
+/home/lxki/CODE/CSConnectUtils/obj/Release/net8.0/linux-x64/CSConnectUtils.pdb
+/home/lxki/CODE/CSConnectUtils/obj/Release/net8.0/linux-x64/ref/CSConnectUtils.dll

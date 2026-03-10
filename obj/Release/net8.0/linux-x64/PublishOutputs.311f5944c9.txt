@@ -1,0 +1,2 @@
+/home/lxki/CODE/CSConnectUtils/bin/Release/net8.0/linux-x64/publish/CSConnectUtils.so
+/home/lxki/CODE/CSConnectUtils/bin/Release/net8.0/linux-x64/publish/CSConnectUtils.pdb
