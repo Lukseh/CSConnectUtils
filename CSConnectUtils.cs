@@ -7,13 +7,13 @@ using CounterStrikeSharp.API;
 
 namespace CSConnectUtils;
 
-public class CSConnetUtilsConfig : BasePluginConfig
+public class CSConnectUtilsConfig : BasePluginConfig
 {
   [JsonPropertyName("base_password")] public string basepassword { get; set; } = "password";
   [JsonPropertyName("hostname")] public string hostname { get; set; } = "";
 }
 
-public class CSConnectUtils : BasePlugin, IPluginConfig<CSConnetUtilsConfig>
+public class CSConnectUtils : BasePlugin, IPluginConfig<CSConnectUtilsConfig>
 {
 
   // Thanks MatchZy
@@ -37,11 +37,17 @@ public class CSConnectUtils : BasePlugin, IPluginConfig<CSConnetUtilsConfig>
 
   public override string ModuleDescription => "Simple plugin for managin passwords and making fast connect strings for matches and such.";
 
-  required public CSConnetUtilsConfig Config { get; set; }
-  public void OnConfigParsed(CSConnetUtilsConfig CONFIG)
+  required public CSConnectUtilsConfig Config { get; set; }
+  public void OnConfigParsed(CSConnectUtilsConfig CONFIG)
   {
     Config = CONFIG;
     Console.WriteLine("Loaded config file.");
+    if (string.IsNullOrEmpty(Config.hostname))
+    {
+      Console.WriteLine("Hostname is not configured.");
+      Unload(false);
+      return;
+    }
   }
 
   // Main password variable
@@ -51,6 +57,7 @@ public class CSConnectUtils : BasePlugin, IPluginConfig<CSConnetUtilsConfig>
   {
     Console.WriteLine("---CSConnectUtils---\nLukseh wishes great day!");
     CurrentPassword = Config.basepassword;
+    Server.ExecuteCommand($"sv_password {CurrentPassword}");
   }
 
   [ConsoleCommand("connstring", "Returns ready connection string.")]
@@ -70,7 +77,7 @@ public class CSConnectUtils : BasePlugin, IPluginConfig<CSConnetUtilsConfig>
   [CommandHelper(1, "setpassword [new_password]")]
   public void onSetPasswordCommand(CCSPlayerController? player, CommandInfo info)
   {
-    if (!IsPlayerAdmin(player))
+    if (IsPlayerAdmin(player))
     {
       CurrentPassword = info.ArgByIndex(1);
       Server.ExecuteCommand($"sv_password {CurrentPassword}");
@@ -81,7 +88,7 @@ public class CSConnectUtils : BasePlugin, IPluginConfig<CSConnetUtilsConfig>
   [ConsoleCommand("resetpassword", "Resets password to base password from Config.")]
   public void onResetPassword(CCSPlayerController? player, CommandInfo info)
   {
-    if (!IsPlayerAdmin(player))
+    if (IsPlayerAdmin(player))
     {
       CurrentPassword = Config.basepassword;
       Server.ExecuteCommand($"sv_password {CurrentPassword}");
