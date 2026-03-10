@@ -10,3 +10,4 @@
 /home/lxki/CODE/CSConnectUtils/obj/Debug/net8.0/refint/CSConnectUtils.dll
 /home/lxki/CODE/CSConnectUtils/obj/Debug/net8.0/CSConnectUtils.pdb
 /home/lxki/CODE/CSConnectUtils/obj/Debug/net8.0/ref/CSConnectUtils.dll
+/home/lxki/CODE/CSConnectUtils/obj/Debug/net8.0/CSConnectUtils.sourcelink.json
