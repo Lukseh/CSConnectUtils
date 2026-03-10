@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSConnectUtils")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ec10c01dba727f68f3bd9be69b4f6748777a671")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08b1d688b176d22b8f2958208e1c39bd06cb4495")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSConnectUtils")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSConnectUtils")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
